@@ -1,0 +1,50 @@
+.background-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#contact-header{
+    margin-bottom: 50px;
+    text-shadow: 2px 2px black;
+}
+
+.contact-section {
+    position: relative;
+    height: 110vh;
+}
+
+.contact-box {
+    position: absolute;
+    padding: 80px;
+    margin: 100px auto;
+    max-width: 1000px;
+    background: rgba(97, 69, 69, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transform-style: preserve-3d;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}

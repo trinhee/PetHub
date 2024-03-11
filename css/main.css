@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #0a2a43;
+    color: #fff;
+    background-image:url("https://www.transparenttextures.com/patterns/brilliant.png");
+    min-height: 1500px;
+    
+}
+
+.banner {
+    width: 100%;
+    height: 125px;
+    background-color: #294366;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px 100px;
+    box-sizing: border-box;
+    justify-content: flex-start;
+}
+
+.banner h1 {
+    color: rgb(221, 136, 9);
+    font-family: 'Sofia';
+    margin-left: 20px;
+    font-size: 4em;
+    text-shadow: 2px 2px black;
+}
+
+.banner p {
+    font-size: 1.2em;
+    margin-top: 35px;
+    margin-left: 20px;
+    text-shadow: 2px 2px black;
+}
+
+.logo {
+    width: 75px;
+    margin-left: 100px;
+}
+
+.logo-img {
+    width: 100%;
+    border: 1px solid #000
+}
+
+.navigation {
+    top: 1;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    background: #10102b91;
+    justify-content:center;
+    align-items: center;
+    z-index: 1;
+}
+
+.navigation a {
+    position: relative;
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-left: 40px;
+    left: 160px;
+
+}
+
+.navigation a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #FFF;
+    transition: 0.3s;
+
+}
+
+.navigation a:hover::before {
+    width: 100%;
+}
+
+section{
+    display:grid;
+    place-items:center;
+    align-items:center;
+    min-height:25vh;
+}
+
+
+#products h1{
+    font-size: 8em;
+    margin-top: 70px;
+    text-shadow: 2px 2px black;
+}
+
+.product {
+    object-fit: cover;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-right: 10px;
+}
+
+.dogs {
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.dog {
+    width: calc(15% - 20px);
+    margin: 10px 10px;
+}
+
+.dogs {
+    display: flex;
+}
+
+button {
+    background-color: #294366;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1e2f4e;
+}
+
+/* Validation Styles */
+.invalid {
+    border-color: red;
+    color: red;
+}
+
+.valid {
+    border-color: green;
+    color: green;
+}
+
+/* Back to Top Button */
+#backToTopBtn {
+    display: grid;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    background-color: #294366;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000000;
+}
+
+#backToTopBtn:hover {
+    background-color: #1e2f4e;
+}

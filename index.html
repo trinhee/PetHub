@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/card_flip.css">
+    <link rel="stylesheet" href="css/scroll.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/references.css">
+    <link rel="stylesheet" href="css/about.css">
+    
+    
+    <title>Welcome | PetHub</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+</head>
+<body>
+    <button id="backToTopBtn" onclick="scrollToTop()">Back to Top</button>
+    <header>
+        <div class="banner">
+            <div class="logo">
+                <img src="img/banner_logo.png" alt="logo" title="Logo" class="logo-img">
+            </div>
+            <h1>Pethub</h1>
+            <p>Find your perfect furry friend!</p>
+        </div>
+
+        <nav class="navigation">
+            <a href="#about">About</a>
+            <a href="#products">Products</a>
+            <a href="#contact">Contact</a>
+            <a href="#references">References</a>
+        </nav>
+    </header>
+
+    <section class="about" id="about">
+        <img src="img/dog.jpg" id="about_dog">
+        
+        <h2 id="text">About</h2>
+        <p id="p_text">Pethub operates as an online platform specializing in the sale of pets and pet related products, 
+            adopting a place to cater everyones needs. Our website does not only offer a variety of adorable companions 
+            but also provides premium pet products! The structure of our website includes an 'about' section, introducing 
+            what we have to offer and highlighting our amamzing team. Our 'Products' section show cases all of our products, 
+            detailing their specifications. Our 'Contact' section allows for our users to communicate with us regarding problems 
+            such as product info, pricing, and more. Lastly, our 'References' section serves as a testament to the platform's 
+            dedication, featuring the references to all pictures used.</p>
+    </section>
+    
+
+    <section class="hidden">
+        <h1>Meet Our Team</h1>
+        <div class="cards">
+
+            <div class="card hidden">
+                <div class="card__inner">
+                    <div class="card__face card__face--front">
+                        <h2>CEO and Founder</h2>
+                    </div>
+                    <div class="card__face card__face--back">
+                        <div class="card__content">
+                            <div class="card__header">
+                                <img src="img/Ethan.jpg" alt="Headshot" title="Ethan" class="team"/>
+                                <h2>Ethan Trinh</h2>
+                            </div>
+                                <div class="card__body">
+                                    <h3>@trinhithy</h3>
+                                    <p>CEO and founder of Pethub. My mission is to provide people with great pets they can remember forever. Great bonding with pets is a must!</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card hidden">
+                <div class="card__inner">
+                    <div class="card__face card__face--front">
+                        <h2>Outreach Agent</h2>
+                    </div>
+                    <div class="card__face card__face--back">
+                        <div class="card__content">
+                            <div class="card__header">
+                                <img src="img/Thierry.jpg" alt="Headshot" title="Thierry" class="team"/>
+                                <h2>Thierry Huot</h2>
+                            </div>
+                                <div class="card__body">
+                                    <h3>@tmoney4u</h3>
+                                    <p>
+                                        Outreach agent of Pethub. I strive to find people who are looking for the perfect pet. I am dedicated to being the pet to person matchmaker!</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card hidden">
+                <div class="card__inner">
+                    <div class="card__face card__face--front">
+                        <h2>Marketing Agent</h2>
+                    </div>
+                    <div class="card__face card__face--back">
+                        <div class="card__content">
+                            <div class="card__header">
+                                <img src="img/Gabe.jpg" alt="Headshot" title="Gabriel" class="team"/>
+                                <h2>Gabriel Wong</h2>
+                            </div>
+                                <div class="card__body">
+                                    <h3>@gwothegoat</h3>
+                                    <p>Marketing agent for Pethub. I have been waiting my entire life for a moment to share my expertise in pets. If there is a way, I am doing anything to make it happen.</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+    </section>
+
+    <section class="hidden" id="products">
+        <h1>Products</h1>
+        <div class="dogs">
+            <div class="dog hidden">
+                <img src="img/grizzly.jpg" alt="Dog" title="Grizzly" class="product">
+                <div class="product_info">
+                    <h2>Grizzly</h2>
+                    <p>Product Code: GT12345</p>
+                    <p>Description: Adorable weiner dog that thinks he is a bulldog!</p>
+                    <button class="add_to_cart">Add to Cart</button>
+                </div>
+            </div>
+    
+            <div class="dog hidden">
+                <img src="img/bear.jpg" alt="Dog" title="Bear" class="product">
+                <div class="product_info">
+                    <h2>Bear</h2>
+                    <p>Product Code: BT67890</p>
+                    <p>Description: Beatiful cocker spaniel that loves to go on walks!</p>
+                    <button class="add_to_cart">Add to Cart</button>
+                </div>
+            </div>
+    
+            <div class="dog hidden">
+                <img src="img/tdog.jpg" alt="Dog" title="Mocha"class="product">
+                <div class="product_info">
+                    <h2>Mocha</h2>
+                    <p>Product Code: TD54321</p>
+                    <p>Description: Cute little poodle that loves to play!</p>
+                    <button class="add_to_cart">Add to Cart</button>
+                </div>
+            </div>
+    </section>
+
+    <section class="hidden">
+        <div class="dogs">
+            <div class="dog hidden">
+                <img src="img/dog4.jpg" alt="Dog" title="Moo" class="product">
+                <div class="product_info">
+                    <h2>Moo</h2>
+                    <p>Product Code: MG65463</p>
+                    <p>Description: Great dog that likes to go on walks. Energy is unmatched!</p>
+                    <button class="add_to_cart">Add to Cart</button>
+                </div>
+            </div>
+    
+            <div class="dog hidden">
+                <img src="img/dog5.jpg" alt="Dog" title="Bull"class="product">
+                <div class="product_info">
+                    <h2>Bull</h2>
+                    <p>Product Code: PI99823</p>
+                    <p>Description: Unbeatable pug that is a hungry little guy. Loves to be pet!</p>
+                    <button class="add_to_cart">Add to Cart</button>
+                </div>
+            </div>
+    
+            <div class="dog hidden">
+                <img src="img/dog6.jpg" alt="Dog" title="Choco" class="product">
+                <div class="product_info">
+                    <h2>Choco</h2>
+                    <p>Product Code: CT25130</p>
+                    <p>Description: Cuddly little guy that always sleeps. Fan favourite!</p>
+                    <button class="add_to_cart">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <div class="contact-box" class="foreground-image">
+            <h1 id="contact-header">Contact Us</h1>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" onblur="validateForm()">
+    
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" onblur="validateForm()">
+    
+                <label for="reason">Reason:</label>
+                <select id="reason" name="reason" onchange="toggleProductID()">
+                    <option value="general">General Inquiry</option>
+                    <option value="pricing">Pricing</option>
+                    <option value="product-info">Product Info</option>
+                    <option value="shipping">Shipping</option>
+                    <option value="other">Other</option>
+                </select>
+    
+                <label for="productID" id="productIDLabel" style="display: none;">Product ID:</label>
+                <input type="text" id="productID" name="productID" style="display: none;" onblur="validateForm()">
+    
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="1" onblur="validateForm()"></textarea>
+    
+                <button type="button">Send Message</button>
+            </form>
+        </div>
+        <img src="img/contact-bg.jpg" alt="Background Water" title="Background" class="background-image">
+    </section>
+
+    
+    <section class="references" id="references">
+        <img src="img/parallax-bg.jpg" alt="Background Raindrop" title="Background" id="raindrop">
+        
+        <h2 id="text">References</h2>
+    </section>
+
+    
+
+
+    <div class="references-end">
+        <a href="https://www.pexels.com/photo/black-and-tan-long-coat-dog-169524/" class="reference-link" target="_blank">Home Dog<p></p></a>
+        <a href="https://pixabay.com/vectors/cat-paw-heart-character-cute-8239223/" class="reference-link" target="_blank">Logo</a>
+        <a href="https://www.pexels.com/photo/droplet-creating-splash-in-dark-liquid-4171927/" class="reference-link" target="_blank">Reference Background</a>
+        <a href="https://www.pexels.com/photo/closeup-photo-of-brown-and-black-dog-face-406014/" class="reference-link" target="_blank">Moo</a>
+        <a href="https://www.pexels.com/photo/portrait-photo-of-an-adult-black-pug-1851164/" class="reference-link" target="_blank">Bull</a>
+        <a href="https://www.pexels.com/photo/winking-black-and-brown-puppy-2023384/" class="reference-link" target="_blank">Choco</a>
+        <a href="https://www.favicon.cc/?" class="reference-link" target="_blank">Favicon</a>
+        <a href="https://www.transparenttextures.com/patterns/brilliant.png" class="reference-link" target="_blank">Texture</a>
+    </div>
+
+    <div class="photos-header">
+        <h3>Photos taken by me</h3>
+    </div>
+
+    <div class="photos">
+        <section>
+            <img src="img/Ethan.jpg" alt="Ethan" title="Ethan">
+            <p>CEO</p>
+        </section>
+    
+        <section>
+            <img src="img/Thierry.jpg" alt="Thierry" title="Thierry">
+            <p>Outreacher</p>
+        </section>
+
+        <section>
+            <img src="img/Gabe.jpg" alt="Gabriel" title="Gabriel">
+            <p>Marketer</p>
+        </section>
+
+        <section>
+            <img src="img/grizzly.jpg" alt="grizzly" title="Grizzly">
+            <p>Grizzly</p>
+        </section>
+
+        <section>
+            <img src="img/bear.jpg" alt="bear" title="Bear">
+            <p>Bear</p>
+        </section>
+
+        <section>
+            <img src="img/tdog.jpg" alt="mocha" title="Mocha">
+            <p>Mocha</p>
+        </section>
+    
+    </div>
+    
+    <script src="js/about.js"></script>
+    <script src="js/card_flip.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/backToTopBtn.js"></script>
+</body>
+</html>

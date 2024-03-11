@@ -1,0 +1,72 @@
+
+#about-dog{
+    width: 100%;
+    height: auto;
+}
+
+#about h1{
+    font-size: 8em;
+}
+
+#about p{
+    margin: 100px;
+}
+
+.about{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about:before{
+    content: '';
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, #0a2a43, transparent);
+    z-index: 10000;
+}
+
+.about:after{
+    content: '';
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 100vh;
+    
+    z-index: 10000;
+    mix-blend-mode: color;
+}
+#about_dog{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+#text{
+    position: relative;
+    color: #fff;
+    font-size: 10em;
+    z-index: 1;
+    margin-bottom:-750px;
+    text-shadow: 2px 2px black;
+}
+
+#p_text{
+    position: absolute;
+    margin-top: 200px;
+    color: #fff;
+    font-size: 1.2em;
+    line-height: 1.6;
+    z-index: 1;
+    text-shadow: 2px 2px black;
+}
